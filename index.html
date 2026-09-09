@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshanshi Pandey — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">AP<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-kicker">2nd year B.Tech CSE · UPES, Dehradun</p>
+        <h1>Anshanshi Pandey<br>writes code<span class="accent-mint">.</span> breaks boards<span class="accent-red">.</span></h1>
+        <p class="hero-sub">CS undergrad learning web development and DSA, one project at a time. When I'm not debugging, I'm probably on a taekwondo mat — I hold a black belt (Dan-1).</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="belt-strip"></div>
+        <div class="hero-card-body">
+          <p class="hero-card-label">currently</p>
+          <ul>
+            <li>Sem 3, B.Tech CSE</li>
+            <li>Learning: HTML/CSS, DSA, Python</li>
+            <li>Black Belt Dan-1, Taekwondo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <div class="avatar" aria-hidden="true">AP</div>
+      </div>
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>I'm a second-year Computer Science student at UPES, Dehradun, currently in my 3rd semester. I'm still early in my web development journey — learning HTML and CSS properly, practicing DSA in Python and C, and figuring out how the pieces of a real project fit together.</p>
+        <p>Outside of code, I've spent years on the taekwondo mat. I'm a black belt (Dan-1) and a certified referee, and I've helped organise tournaments and school events as a core committee member — which taught me a lot about discipline, planning, and working with people under pressure. When I need to slow down, I cook or spend time in the garden.</p>
+        <div class="skills-inline">
+          <span class="chip">Python</span>
+          <span class="chip">C</span>
+          <span class="chip">Java</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">DSA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-sub">A few things I've built while learning.</p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-tag tag-web">Web</div>
+          <h3>Portfolio Website</h3>
+          <p>This site — a responsive personal portfolio built from scratch to practice HTML, CSS and JavaScript, and to learn how to host a project live.</p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+          <a href="https://github.com/anshanshi27" class="project-link" target="_blank" rel="noopener">View repo →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag tag-c">C</div>
+          <h3>Library Book Issue Tracker</h3>
+          <p>A command-line system to add, delete and display books, track their issue status, and calculate late-return fines automatically.</p>
+          <p class="project-tech">C</p>
+          <a href="https://github.com/anshanshi27" class="project-link" target="_blank" rel="noopener">View repo →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag tag-py">Python</div>
+          <h3>Household Inventory Manager</h3>
+          <p>A Python tool to track, add, update and manage household items — built to practice working with data and simple CRUD logic outside a classroom setting.</p>
+          <p class="project-tech">Python</p>
+          <a href="https://github.com/anshanshi27" class="project-link" target="_blank" rel="noopener">View repo →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Languages</h3>
+          <p>Java, C, Python</p>
+        </div>
+        <div class="skill-block">
+          <h3>Web</h3>
+          <p>HTML, CSS — still learning, self-paced</p>
+        </div>
+        <div class="skill-block">
+          <h3>Coursework</h3>
+          <p>Data Structures &amp; Algorithms, Elements of AI/ML</p>
+        </div>
+        <div class="skill-block">
+          <h3>Off-screen</h3>
+          <p>Taekwondo (Black Belt Dan-1, referee), cooking, gardening</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Let's talk</h2>
+        <p class="section-sub">Reach out for internships, collaborations, or just to say hi.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:anshanshi2710@gmail.com">anshanshi2710@gmail.com</a></li>
+          <li><a href="tel:+918755719992">+91 87557 19992</a></li>
+          <li><a href="https://github.com/anshanshi27" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/anshanshi-pandey" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Anshanshi Pandey. Built while learning.</p>
+      <a href="documentation.md" download class="download-btn">Download Documentation</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
